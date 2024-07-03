@@ -1,0 +1,107 @@
+commit 4f421eaea7b0637f27d55bc90d0dcfc939cb2047
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Wed Nov 13 12:34:08 2019 -0500
+
+    performed debugging - added color to suspicious points in residual plots and changed par(par(mfrow))
+
+commit 2919083fbd8278e4196992347796ebf68a1e0e89
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Wed Nov 13 12:13:11 2019 -0500
+
+    modified the initial part to perform recData for all the cases other than 30
+
+commit d000ce9424fc071fb37164d530dd30fdc0654d36
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Wed Nov 13 11:59:15 2019 -0500
+
+    added the function for fitting the glm model and plotting the points and plane in 3D
+
+commit b095152773900b8b37067c0229f4dc8340df3e37
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Wed Nov 13 11:39:05 2019 -0500
+
+    Added the details for glm model function in generateModels.R for creating a glm model for given argument 30
+
+commit fdacc640947dd2af6c235b7df10dfc8cf41ad408
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Mon Nov 11 22:38:32 2019 -0500
+
+    added part for modelling with clean data and modified the if condition to perform all three tests in one to limit the lines in driver function
+
+commit 558cdd410b5dac5a089299b50ac3dafa258667bc
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Mon Nov 11 22:14:30 2019 -0500
+
+    Added the option 11 nad 12 parts to the driver file to analyse the model after creation
+
+commit 4c11436bcde7a98919e7282cd2a0d9b7f3dfb75e
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Mon Nov 11 21:33:49 2019 -0500
+
+    Analyse function added including plots of diagnostic variables
+
+commit 06beb3deeb8f21332ece667359b8c2ab394f98d0
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Mon Nov 11 20:01:19 2019 -0500
+
+    Started the assignment 7th with function AnalyseModel
+
+commit 8fd49cd75d4b6e106b50138a495ee561da9461fa
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Thu Nov 7 23:21:09 2019 -0500
+
+    finished debugging - added extra lines for condition 3
+
+commit 3a7474ef9c2f6befea160a64404c6644f765d03b
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Fri Nov 8 03:55:27 2019 -0500
+
+    for the generateModels.R, performed fitting and plotted the results
+
+commit e5f56a2fcd99bb39c355547bce35b50e69200e33
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Fri Nov 8 03:54:58 2019 -0500
+
+    for the generateModels.R, calculated the correlation estimators again
+
+commit 013cd31b3a74f9b74d02d5d9b9dd2b9c91b3d3fb
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Fri Nov 8 03:54:13 2019 -0500
+
+    for the generateModels.R, calculated the correlation estimators
+
+commit ad8e0d31809b1c8e1d3a8a09a4f9f3811615e916
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Fri Nov 8 03:28:17 2019 -0500
+
+    added the function for plotting model data
+
+commit cbf3a746e2c8dfae747c5726f4c90171abd3712b
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Fri Nov 8 03:17:04 2019 -0500
+
+    added the function for quadratic fitting
+
+commit c09f134464769b705ab69a0c0f7565ad11f95b60
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Fri Nov 8 03:11:25 2019 -0500
+
+    added the model for linear fitting
+
+commit a04cd5bc36222e71297272c5e816aa900b9467c4
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Fri Nov 8 03:05:16 2019 -0500
+
+    added the second function corrEstimates to calculate the correlation estimators
+
+commit a56ee0c33eeb55e7c967141c9625bd526badcd36
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Nov 7 21:27:37 2019 -0500
+
+    Added the first function recData to receive and separate data
+
+commit 2c2d30c2d7aa815bd824beab4c3911a3ce52ad8c
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Nov 7 20:44:07 2019 -0500
+
+    Created the files Fitting.Utilities.R for storing functions and generateModels.R as the driver file
