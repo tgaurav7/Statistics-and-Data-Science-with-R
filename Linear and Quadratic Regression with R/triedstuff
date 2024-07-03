@@ -1,0 +1,91 @@
+plot(trees$Girth, trees$Volume)
+> m<-lm(Volume ~ Girth, data=trees)
+> m
+
+Call:
+lm(formula = Volume ~ Girth, data = trees)
+
+Coefficients:
+(Intercept)        Girth
+    -36.943        5.066
+
+> coef(m)%*%c(1, 15.12)
+         [,1]
+[1,] 39.65229
+> coef(m)%*%c(1, 0)
+          [,1]
+[1,] -36.94346
+> coef(m)%*%c(0, 1)
+         [,1]
+[1,] 5.065856
+> 15*5
+[1] 75
+> 15*5-36
+[1] 39
+> summary(m)
+
+Call:
+lm(formula = Volume ~ Girth, data = trees)
+
+Residuals:
+   Min     1Q Median     3Q    Max
+-8.065 -3.107  0.152  3.495  9.587
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)
+(Intercept) -36.9435     3.3651  -10.98 7.62e-12 ***
+Girth         5.0659     0.2474   20.48  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.252 on 29 degrees of freedom
+Multiple R-squared:  0.9353,	Adjusted R-squared:  0.9331
+F-statistic: 419.4 on 1 and 29 DF,  p-value: < 2.2e-16
+
+> plot(trees$Girth, trees$Volume)
+> abline(m)
+> girth2<trees$Girth^@
+Error: unexpected '@' in "girth2<trees$Girth^@"
+> girth@<-trees$Girth^2
+Error: unexpected assignment in "girth@<-"
+> girth2<-trees$Girth^2
+> m2<-lm(Volume~Girth+girth2, data=trees)
+> coef(m2)
+(Intercept)       Girth      girth2
+ 10.7862655  -2.0921396   0.2545376
+> plot(m2)
+Hit <Return> to see next plot:
+Hit <Return> to see next plot:
+Hit <Return> to see next plot:
+Hit <Return> to see next plot:
+>
+> plot(m2)
+Hit <Return> to see next plot:
+Hit <Return> to see next plot:
+Hit <Return> to see next plot:
+Hit <Return> to see next plot:
+>
+>
+> plot(trees$Girth, trees$Volume)
+> abline(m)
+> abline(m2)
+Warning message:
+In abline(m2) : only using the first two of 3 regression coefficients
+> plot(m2)
+Hit <Return> to see next plot:
+Hit <Return> to see next plot:
+Hit <Return> to see next plot:
+Hit <Return> to see next plot:
+>
+> xx<-seq(min(trees$Girth), max(trees$Girth), len=length(trees$Girth))
+> yy<-m2$coef %*% rbind(1, xx, xx^2)
+> lines(xx, yy, lwd=2, col=2)
+> plot(trees$Girth, trees$Volume)
+> abline(m)
+> lines(xx, yy, lwd=2, col=2)
+> ym2<-m2$coef %*% rbind(1, trees$Girth, trees$Girth^2)
+> lines(trees$Girth, ym2, lwd=2, col=2)
+> plot(trees$Girth, trees$Volume)
+> abline(m)
+> lines(trees$Girth, ym2, lwd=2, col=2)
+>
