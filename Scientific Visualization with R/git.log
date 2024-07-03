@@ -1,0 +1,41 @@
+commit 6d8affe3769b4da2527e9fc975f11235dae51a24
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Mon Dec 2 00:17:56 2019 -0500
+
+    generatePlots.m added defensive programming to read data, and arguments - based on the argument received divided which function to call
+
+commit 6d8e1ffbe2b918e3fd064649c8fcee477e2fec45
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Mon Dec 2 00:16:06 2019 -0500
+
+    plottingTools.R - added the function to plot interactive plots of the same dagta
+
+commit 6823a2457327de857ef5034268fae667eed5dbf8
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Mon Dec 2 00:15:38 2019 -0500
+
+    plottingTools.R - added the function to plot contour plot
+
+commit 192791e32f92df03d00dc2cb785d38012e63d41a
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Mon Dec 2 00:14:41 2019 -0500
+
+    plottingTools.R - added the function to plot 2D plots of data along a height and box plots of data variation
+
+commit 78b94dbbc3150bdf07b0c082276d645c27388976
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Mon Dec 2 00:13:20 2019 -0500
+
+    plottingTools.R - added the function to read csv file and return dataframe
+
+commit 687868392c404d00c1ac511c7f31b908a37cdeef
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Mon Dec 2 00:11:52 2019 -0500
+
+    made files for all the functions
+
+commit 70d518a50c98d189a12f4ff6b9fc97ce3658175e
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Mon Dec 2 00:04:31 2019 -0500
+
+    added the data to the folder
