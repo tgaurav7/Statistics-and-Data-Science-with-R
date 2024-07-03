@@ -1,0 +1,1 @@
+R script to perform optionally: 1. non-parameteric bootstrap analysis for the Lottey dataset and 2. a parametric bootstrap analysis on a forest fire dataset( http://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.names) after performing data cleanup and preliminiary statistical analysis with visualization (Histograms)
