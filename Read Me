@@ -1,0 +1,14 @@
+
+This repository contains coursework for MSC1090 Introduction to Computational Biostatistics with R. The uploaded assignment works cover the topics Linux Shell and R programming, version control, modular programming, data analysis, machine learning with R and scientific visualization. 
+1. Practice bash scripting with a real dataset
+2. Function control with shell scripting for R functions creation, I/O, and condition testing through Linux command line
+3. Defensive programming for the R script 
+4. Linear Classification: With version control - R script to perform data assessment - classification and assimilation
+5. LotteryTicket valuation: With version control - R script for probability calculations on a Lottery Ticket based on given parameters on command line with visualisation
+6. Linear and Quadratic Regression: With version control - R script for regression and corrrelation estimation + R script with defensive programming and command line selection for using the previous function to predict correlations and perform linear and quadratic regression with visualization
+7. Concussion Predictions: With version control - R script for using the Statistical diagnostic models including qq plots, Cooks' distance and Studentized residuals to identify and remove suspicious data points and use the clean data set to predict concussions based on the dataset from Sport and Recreation-related Concussions and Other Traumatic Brain Injuries Among Canada's Children and Youth (https://health-infobase.canada.ca/datalab/head-injury-interactive.html)  using regression models
+8. Research Data Analysis: With version control - R script for using Statistics and Machine Learning techniques on the data: Implemented here: Model Fitting, Model Diagnostics, PCA analysisa and kNN classification for known data.
+9. Scientific Visualization: With version control - R script to crate a plot tool with options for difference plots: Contour, heatmaps, 3D, Interactive
+10. Bootstrap Analysis: With version control - R script to perform optionally: 1. non-parameteric bootstrap analysis for the Lottey dataset and 2. a parametric bootstrap analysis on a forest fire dataset( http://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.names) after performing data cleanup and preliminiary statistical analysis with visualization (Histograms)
+11. Parallel programming (MPI) with R for faster Lottery Valuation: With version control from 5 - Byte-compiled versions of the R script to use parallel functioanlity in R for faster calculations with different number of cores
+  
