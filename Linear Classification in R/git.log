@@ -1,0 +1,53 @@
+commit cbef692eedb1aa425b0b38161dd9e1700b2fc7ee
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 24 20:16:46 2019 -0400
+
+    finished editing the code
+
+commit 11cebb85160d2fae1dba230e51c667a7a9690b30
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 24 19:54:20 2019 -0400
+
+    made the bash file and called all the csv files through the R file process.TTC.R
+
+commit 95a03a0d469f5f63421c14857e017574a199d8fb
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 24 19:49:47 2019 -0400
+
+    Reg. file process.TTC.R - called all the required functions with the parameters
+
+commit 360ea73428f9fb672e07913b610531033e9b2fd2
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 24 19:38:37 2019 -0400
+
+    Created the file for process.TTC.R for calling the functions in TTC.Utilities.R
+
+commit 0641af1ac08b4cd240ccb7126c78df9d50cf2187
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 24 19:36:22 2019 -0400
+
+    Added function most.delays for printing the route with most delays in December
+
+commit 8060e33d75d6c45f96e0e9fff4d5d00c66fdae46
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 24 18:59:32 2019 -0400
+
+    Added file empty checks in the file.recv function
+
+commit e69375b2307be6d4e8552b632e12d50769699488
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 24 18:58:13 2019 -0400
+
+    Added cal.Delay and averdel.mechanical fuctions
+
+commit dfa4faf22b5b80e1f28be5b353256572f05814b6
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 24 16:39:10 2019 -0400
+
+    Created the first fucntion filerecv
+
+commit d00126344bf30435ea5a978ee342ea6b0d2e7410
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 24 16:23:33 2019 -0400
+
+    File TTC.UTilities.R created to contain functions
