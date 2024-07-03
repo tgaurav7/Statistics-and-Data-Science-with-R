@@ -1,0 +1,89 @@
+commit 520fad5fe7b9e3738b36420bae6880dd6ef1334c
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Thu Dec 12 23:50:24 2019 -0500
+
+    added the benchmark condition to the if condition followed by an else defensive programming in case a wrong argument is passed through the code
+
+commit d46c313ccbf66f5841809bb346501ffc2020260c
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Thu Dec 12 23:49:05 2019 -0500
+
+    modified the analysis function to perform all the 6 operations with the case of parallelization using 4 cores
+
+commit 7ecc8bce9713979f43f85ea21cb2d428ff9fafec
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Thu Dec 12 22:12:02 2019 -0500
+
+    added the parts for byte compiled functions for all the three type of codes
+
+commit ccd67fbbcc583bf5010aace85e4e13b416e7df43
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Thu Dec 12 22:10:10 2019 -0500
+
+    added the function to perform the operation with using mclapply function
+
+commit 2a4d8cb7b7a2ce6977d4f98cbb098de8b17e9941
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Thu Dec 12 22:09:36 2019 -0500
+
+    added the function to perform the operation without for loop
+
+commit 9a0ade4a8f0080a16c41958c8a93ac6867f50243
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Thu Dec 12 21:41:46 2019 -0500
+
+    copied the last files to new folder for assignment 11 - already contains the for loop application i.e. the part 1(a)
+
+commit 3b0bd4f451fa496dbf85ee0dab6b225e69c62a0e
+Author: TK Gaurav <gaurav.tk2010@gmail.com>
+Date:   Thu Dec 12 15:13:40 2019 -0500
+
+    starting with the assignment-11
+
+commit fd86ea11bd635b104224f6949ca52577dd496493
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 31 23:06:25 2019 -0400
+
+    added the calculation of profits and printing mean profit with histogram plot
+
+commit 62f9fc037a9778ed4267d685e0e95ae65bc23a93
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 31 22:54:58 2019 -0400
+
+    performed the calculation for return on ticket for the given example
+
+commit 9fbd3862f224a65e776b1d4de06042f8ba48adaa
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 31 22:24:22 2019 -0400
+
+    made the Lottery.Analysis.R file
+
+commit 1283b1adc03883e72b11c2d71da48537ad46b6b0
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 31 22:19:36 2019 -0400
+
+    added the fifth function to calculate profit from buying X tickets with awards vector A
+
+commit 195c1ef0eba70ecdefe77394726807a6d738b081
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 31 21:55:03 2019 -0400
+
+    added the function to give number of common elements in two given vectors
+
+commit b0dac3ae17e27aa46bb327d34160a1180c6dab35
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 31 21:48:57 2019 -0400
+
+    Added the function to draw k random numbers from 1 to N
+
+commit 93114731c86dbcaee334b41286b07b4b320c12c9
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 31 21:39:38 2019 -0400
+
+    added the second function to calculate the return with awards and costs
+
+commit 70c56d1bdbc3d55aecc4e728c4e1d59a797f4d9b
+Author: TK <gaurav.tk2010@gmail.com>
+Date:   Thu Oct 31 21:05:04 2019 -0400
+
+    made the first fucntion to calculate probability

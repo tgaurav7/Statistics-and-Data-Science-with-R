@@ -1,0 +1,30 @@
+Conclusions on comparing different methods:
+
+While the byte-compilatio added to the speed of calculations, parallelization had little effect. It lead to increase in time with higher number of cores (4) in comparison to just one core. 
+This might be due to higher time spent while transferring data between the cores. A higher data-size might be able to give a faster processing time with parallelization. 
+
+For 10 iterations, results look as is:
+                          expr       min        lq     mean
+                  profitontickets(X, k, N, A, C)  8.423851  9.819955 13.60434
+                 profitwithfor_BC(X, k, N, A, C)  8.139999 12.083189 12.55787
+             profitonticketswofor(X, k, N, A, C)  8.509460 10.327545 12.98797
+                   profitwofor_BC(X, k, N, A, C)  7.567446  8.531676 11.22555
+ profitontickets_paralled(X, k, N, A, C, nc = 1)  7.393453  9.471633 12.75311
+ profitontickets_paralled(X, k, N, A, C, nc = 2) 22.663299 23.759738 25.48964
+ profitontickets_paralled(X, k, N, A, C, nc = 4) 21.789273 23.168283 26.76477
+       profit_parallel_BC(X, k, N, A, C, nc = 1)  8.820021 10.970032 13.26891
+       profit_parallel_BC(X, k, N, A, C, nc = 2) 22.140483 23.365817 26.56737
+       profit_parallel_BC(X, k, N, A, C, nc = 4) 22.742146 24.623975 26.55481
+	   
+	   
+   median       uq      max neval
+ 15.11788 16.34168 19.41767    10
+ 13.16917 14.37120 14.65763    10
+ 13.80504 15.98402 16.96413    10
+ 10.39382 11.92611 18.36316    10
+ 11.29412 17.09777 21.59811    10
+ 24.84450 25.30915 33.07600    10
+ 24.67676 26.41039 47.72016    10
+ 14.16251 15.08265 16.60728    10
+ 26.01357 27.85310 34.26389    10
+ 26.03876 26.67624 36.57196    10
